@@ -1,0 +1,11 @@
+set -x
+
+ipc277d_info()
+{
+	BOARD_USES_TSLIB=true
+}
+
+detect_hardware()
+{
+	ipc277d_info
+}
